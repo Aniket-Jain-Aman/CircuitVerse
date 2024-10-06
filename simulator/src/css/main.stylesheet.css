@@ -228,8 +228,8 @@ input[type="text"]:focus {
 
 .logo {
     background: url(./assets/logo.svg) center/cover;
-    height: 30px;
-    width: 105px;
+    height: 15px;
+    width: 50px;
     display: inline-block;
     margin-right: 36px;
 }
