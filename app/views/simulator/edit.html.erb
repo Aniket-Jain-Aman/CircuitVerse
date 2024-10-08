@@ -1,4 +1,4 @@
-<% content_for(:html_title) { "MANIT_Verse - Digital Simulator" } %>
+<% content_for(:html_title) { "Team No. 27  - Digital Simulator" } %>
 
 <script src="/js/plugins/jquery.twbs-toggle-buttons.min.js" defer></script>
 <script src="/js/plugins/checkBo.min.js" defer></script>
@@ -64,8 +64,8 @@
         </ul>
       </li>
       </ul>
-      <span class="projectName noSelect defaultCursor" id="projectName" style="height: 50px;">
-          Atharva KJ
+      <span class="projectName noSelect defaultCursor" id="projectName" style="height: 50px; font-weight: bold;">
+          Team No. 27 :  Logic Gates
       </span>
 
       
@@ -101,10 +101,10 @@
         </g>
       </svg>
       </span></div>
-      <div>
-        <button type="button" class="quick-btn-save-online logixButton" id="save" title="Save Online" onclick="">
-        </button>
-      </div>
+      <!-- <div>
+       <button type="button" class="quick-btn-save-online logixButton" id="save" title="Save Online" onclick="">
+        </button> 
+      </div> -->
       <div>
         <button type="button" class="quick-btn-save logixButton" id="ExportCircuitFiles" title="Export as file" onclick="">
         </button>
@@ -113,14 +113,14 @@
         <button type="button" class="quick-btn-delete" title="Delete Selected" id="deleteSelected">
         </button>
       </div>
-      <div>
-        <button type="button" class="quick-btn-download logixButton" id="createSaveAsImgPrompt" title="Download as Image" onclick="">
-        </button>
-      </div>
-      <div>
+       <!--<div>
+      <button type="button" class="quick-btn-download logixButton" id="createSaveAsImgPrompt" title="Download as Image" onclick="">
+        </button> 
+      </div> -->
+      <!--  <div>
         <button type="button" class="quick-btn-zoom-fit" title="Fit to Screen" onclick="globalScope.centerFocus(false)">
-        </button>
-      </div>
+        </button> 
+      </div> -->
       <div>
         <button type="button" class="quick-btn-undo" title="Undo" id="undoButton">
         </button>
@@ -353,7 +353,7 @@
     </div>
   </div>
 </div>
-<div class="testbench-manual-panel draggable-panel noSelect defaultCursor">
+<!-- <div class="testbench-manual-panel draggable-panel noSelect defaultCursor">
   <div class="panel-header">Testbench
     <span class="fas fa-minus-square minimize panel-button"></span>
     <span class="fas fa-external-link-square-alt maximize panel-button-icon"></span>
@@ -407,15 +407,15 @@
         </span>
       </div>
   </div>
-  <div class="panel-body tb-test-null">
+  <!--  <div class="panel-body tb-test-null">
     <div class="tb-manual-test-data">
         <div style="margin-bottom: 10px; overflow: auto;">
           <p><i>No Test is attached to the current circuit</i></p>
         </div>
         <button class="custom-btn--primary panel-button tb-dialog-button" id="attach-test-btn">Attach Test</button>
       </div>
-  </div>
-</div>
+  </div> 
+</div> -->
 <div id="MessageDiv"></div>
 <div class="noSelect defaultCursor draggable-panel draggable-panel-css" id="verilogEditorPanel">
   <div class="panel-header">Verilog Module
@@ -461,13 +461,15 @@
   </div>
 </div>
 
-<div class="moduleProperty noSelect effect1 properties-panel draggable-panel draggable-panel-css  guide_2" id="moduleProperty">
+
+ <!--  <div class="moduleProperty noSelect effect1 properties-panel draggable-panel draggable-panel-css  guide_2" id="moduleProperty">
   <div id="moduleProperty-title" class="noSelect panel-header">Properties
   <span class="fas fa-minus-square minimize"></span>
   <span class="fas fa-external-link-square-alt maximize"></span>
   </div>
   <div class='panel-body'> <div id="moduleProperty-inner"></div></div>
-</div>
+</div> 
+-->
 <div id="customShortcutDialog" title="Keybinding Preference"></div>
 <div id="layoutDialog" class="draggable-panel draggable-panel-css ">
   <div class="panel-header">Layout
