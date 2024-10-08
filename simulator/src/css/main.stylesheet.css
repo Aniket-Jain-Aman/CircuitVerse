@@ -227,8 +227,8 @@ input[type="text"]:focus {
 }
 
 .logo {
-    background: url(./assets/logo.svg) center/cover;
-    height: 15px;
+    background: url(./assets/logo.jpg) center/cover;
+    height: 50px;
     width: 50px;
     display: inline-block;
     margin-right: 36px;
@@ -1991,7 +1991,7 @@ canvas {
     display: none;
 }
 .touchNavlogo {
-    -webkit-mask: url(./assets/CVLogo.svg) no-repeat center;
+    -webkit-mask: url(./assets/CVLogo.sv) no-repeat center;
     mask: url(./assets/CVLogo.svg) no-repeat center;
     display: inline-block;
     padding-top: 25px;
