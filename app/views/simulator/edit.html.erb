@@ -1,4 +1,4 @@
-<% content_for(:html_title) { "CircuitVerse - Digital Simulator" } %>
+<% content_for(:html_title) { "MANIT_Verse - Digital Simulator" } %>
 
 <script src="/js/plugins/jquery.twbs-toggle-buttons.min.js" defer></script>
 <script src="/js/plugins/checkBo.min.js" defer></script>
@@ -68,22 +68,7 @@
           Untitled
       </span>
 
-      <ul class="nav navbar-nav noSelect pointerCursor pull-right account-btn">
-        <li class="dropdown pull-right">
-          <% if user_signed_in? %>
-            <a href="#" class="cur-user acc-drop user-field" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= current_user.name %><span class="caret acc-caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href=<%= user_path(current_user) %>>Dashboard</a></li>
-              <li><a class="dropdown-item" href=<%= user_groups_path(current_user) %>>My Groups</a></li>
-              <li><a class="dropdown-item" href=<%= notifications_path(current_user) %>>Notifications</a></li>
-              <div class="dropdown-divider"></div>
-              <li><a class="dropdown-item" rel="nofollow" data-bs-method="delete" href=<%= destroy_user_session_path %>>Sign Out</a></li>
-            </ul>
-          <% else %>
-            <a class="navbar-nav signIn-btn user-field" href=<%= new_user_session_path %>> Sign In </a>
-          <% end %>
-        </li>
-      </ul>
+
 
     </div>
 
@@ -343,7 +328,7 @@
     <div class="accordion" id="subcircuitMenu"></div>
   </div>
 </div>
-<div class="timing-diagram-panel draggable-panel" id="time-Diagram">
+<div class="timing-diagram-panel draggable-panel" style="display:none;" id="time-Diagram">
 <div class="panel-header">Timing Diagram
   <span class="fas fa-minus-square minimize panel-button"></span>
   <span class="fas fa-external-link-square-alt maximize panel-button-icon"></span>
@@ -371,7 +356,8 @@
     </div>
   </div>
 </div>
-<div class="testbench-manual-panel draggable-panel noSelect defaultCursor">
+<div class="testbench-manual-panel draggable-panel noSelect defaultCursor"
+style="display:none;" >
   <div class="panel-header">Testbench
     <span class="fas fa-minus-square minimize panel-button"></span>
     <span class="fas fa-external-link-square-alt maximize panel-button-icon"></span>
