@@ -103,7 +103,8 @@
     ],
     "elementHierarchy": {
         "Input": [
-            {"name":"Input", "label":"Input"}
+            {"name":"Input", "label":"Input"},
+            {"name":"Clock","label":"Clock"}
         ],
         "Output": [
             {"name":"Output", "label":"Output"}
@@ -116,6 +117,13 @@
             {"name":"NandGate", "label":"Nand Gate"},
             {"name":"NorGate", "label":"Nor Gate"},
             {"name":"XnorGate", "label":"Xnor Gate"}
+        ],
+        "Sequential Elements": [
+            {"name":"DflipFlop", "label":"D flip Flop"},
+            {"name":"TflipFlop", "label":"T flip Flop"},
+            
+            {"name":"JKflipFlop", "label":"JK flip Flop"},
+            {"name":"SRflipFlop", "label":"SR flip Flop"}
         ]
     }
 }
